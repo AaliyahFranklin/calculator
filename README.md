@@ -3,7 +3,7 @@
 A calculator built with HTML, CSS, and JavaScript.
 
 ## How it works
-Instead of using eval(), this calculator implements the Shunting Yard algorithm 
+This calculator implements the Shunting Yard algorithm 
 invented by Edsger Dijkstra to parse and evaluate mathematical expressions.
 
 ### Features

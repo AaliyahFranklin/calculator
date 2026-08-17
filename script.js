@@ -10,7 +10,7 @@ function clearDisplay()
     display.value ="";
 }
 
-//function since js doesnt have structs :(
+
 function newToken(value, isNumber) {
     return { value, isNumber };
 }
@@ -180,19 +180,7 @@ function calculate(rpnExpression)
   return answer.at(0); //the top value should be the answer
 }
 
-/* function displayAnswer()
-{
-  let count = display.value.length;
-  
-    let tokens = tokenize(display.value, count);
-    let tokenCount = tokens.length;
-    let rpnExpression = shuntingYard(tokens, tokenCount);
-    display.value = calculate(rpnExpression);
-  
- 
-}
 
- */
 function displayAnswer()
 {
   let expressionLength = display.value.length; //length of inputted expression
